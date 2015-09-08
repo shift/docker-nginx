@@ -7,4 +7,4 @@ push: build
 	docker push ${DOCKER_USER}/nginx:stable
 
 test: build
-	docker run -i ${DOCKER_USER}/nginx:stable /bin/bash -l -c 'nginx -v'
+	sudo docker run -i ${DOCKER_USER}/nginx:stable /bin/bash -l -c 'nginx -v'
