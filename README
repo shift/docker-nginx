@@ -1,0 +1,19 @@
+# nginx
+
+Docker image inheritance:
+ * shift/ubuntu:15.04
+ * ubuntu:15.04
+
+## Volumes
+
+ * /etc/nginx
+ * /var/log/nginx
+ * /var/lock
+ * /var/run
+ * /var/lib/nginx/fastcgi
+
+## Ports
+
+ * 80/tcp
+ * 443/tcp
+
