@@ -35,4 +35,4 @@ VOLUME /var/lib/nginx/fastcgi
 EXPOSE 80/tcp
 EXPOSE 443/tcp
 
-ENTRYPOINT["/usr/sbin/nginx"]
+ENTRYPOINT ["/usr/sbin/nginx"]
