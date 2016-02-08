@@ -1,8 +1,8 @@
 # nginx
 
 Docker image inheritance:
- * shift/ubuntu:15.04
- * ubuntu:15.04
+ * shift/ubuntu:16.04
+ * ubuntu:16.04
 
 ## Volumes
 
